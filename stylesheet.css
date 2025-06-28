@@ -1,0 +1,75 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base styles */
+body {
+  font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+  background: #f7f8fa;
+  color: #222;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+/* Header */
+header {
+  background: #22223b;
+  color: #fff;
+  padding: 2rem 0 1.5rem 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  letter-spacing: 2px;
+  margin-bottom: .5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #c9ada7;
+}
+
+/* Navigation */
+nav {
+  margin-top: 1rem;
+}
+
+nav a {
+  color: #c9ada7;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+nav a:hover {
+  color: #f2e9e4;
+}
+
+/* Main content layout */
+.container {
+  max-width: 900px;
+  margin: 2rem auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px 0 rgba(34,34,59,0.08);
+  padding: 2rem;
+}
+
+/* Section headings */
+section h2 {
+  font-size: 2rem;
+  color: #22223b;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #c9ada7;
+  display: inline-block;
+  padding-bottom: .2rem;
+}
+
+/**
+
