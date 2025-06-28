@@ -72,4 +72,7 @@ section h2 {
 }
 
 /**
+* {
+  outline: 2px solid blue !important;
+}
 
